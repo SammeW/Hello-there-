@@ -1,0 +1,76 @@
+body {
+    background-color: #2B2F35;
+}
+h1 {
+    font-size: 70px;
+    color: #E05D5D;
+    font-family: verdana;
+    margin: 40px;
+    padding: 20px;
+}
+h2 {
+    font-size: 40px;
+    color: #CACECF;
+    font-family: helvetica;
+    border: 5px solid #1B1F29;
+    padding: 20px;
+    margin: 40px;
+    background-color: #1B1F29;
+}
+p {
+    color: #EAEAEA;
+    font-size:30px;
+    margin: 60px;
+    font-family: helvetica;
+}
+.greyParagraph {
+    color: #91CAA8;
+}
+#mitalit {
+    color: #F3F56F;
+    font-size: 40px;
+    font-family: helvetica;
+    border: 5px solid #1B1F29;
+    padding: 20px;
+    margin: 40px;
+    background-color: #1B1F29;
+}
+#kulta {
+    color: #F3F56F;
+    font-size:40px;
+    margin: 60px;
+    text-decoration: none;
+}
+#hopea {
+    color: silver;
+    font-size:40px;
+    margin: 60px;
+    text-decoration: none;
+}
+#pronssi {
+    color: #B36E25;
+    font-size: 40px;
+    margin: 60px;
+    text-decoration: none;
+}
+ol {
+    color: #EAEAEA;
+    margin: 50px;
+    font-size: 30px;
+    font-family: helvetica;
+}
+hr {
+    color: #E05D5D;
+}
+label {
+    color: #EAEAEA;
+    margin: 60px;
+    font-size: 35px;
+    font-family: helvetica;
+}
+input {
+    font-size: 25px;
+    background-color: #1B1F29;
+    color: #EAEAEA;
+    border: 3px solid #1B1F29;
+}
