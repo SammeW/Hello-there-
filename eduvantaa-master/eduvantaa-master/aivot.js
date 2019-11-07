@@ -1,5 +1,6 @@
 function laatikkoFunktio(boxNumber){
     alert("Nyt vaihdetaan laatikko"+ boxNumber + ":n sisältöä!");
+    
 
     if (boxNumber == 1){
         document.getElementById("laatikko1").innerHTML = "<h1 class='uusiOtsikko1'>Tähän tulee uusi otsikko!</h1>" + 
