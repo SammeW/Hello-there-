@@ -29,3 +29,34 @@ function yhteystietoFunktio() {
     }
     document.getElementById("yhteystiedotTuloste").innerHTML = text;
   }
+function diagrammiFunktio(){
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    
+    var tekstikorkeus = 500;
+    var määrä = ["0", "2500", "5000", "10 000", "12 500", "15 000"];
+    var m;
+    for (m = 0; m < määrä.length; m++){
+    ctx.fillText(määrä[m], 1, tekstikorkeus);
+    tekstikorkeus = tekstikorkeus - 95;
+    }
+    var tekstileveys = 20;
+    var kuukaudet = ["Tammi", "Helmi", "Maalis", "Huhti", "Touko", "Kesä", "Heinä", "Elo", "Syys", "Loka", "Marras", "Joulu"];
+    var kk;
+    for (kk = 0; kk < kuukaudet.length; kk++){
+    ctx.fillText(kuukaudet[kk], tekstileveys, 500);
+    tekstileveys = tekstileveys + 50;
+    }
+    ctx.moveTo(40, 200);
+    var leveys = 40;
+    var korkeus = ["200", "270", "140", "400", "300", "80", "230", "485", "232", "12", "355", "432", "123"];
+    var l;
+    var k;
+    
+    for (k = 0; k < korkeus.length; k++){
+        ctx.lineTo(leveys, korkeus[k]);
+        leveys = leveys + 40;
+        }
+    ctx.stroke();
+    }
