@@ -60,3 +60,18 @@ function diagrammiFunktio(){
         }
     ctx.stroke();
     }
+    $(document).ready(function(){
+        $(pl1).click(function(){
+          $(laatikko1).toggle();
+        });
+      });
+    $(document).ready(function(){
+        $(pl2).click(function(){
+          $(laatikko2).toggle();
+        });
+      });
+    $(document).ready(function(){
+        $(pl3).click(function(){
+          $(laatikko3).toggle();
+        });
+      });
