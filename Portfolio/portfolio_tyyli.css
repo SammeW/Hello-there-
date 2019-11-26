@@ -3,3 +3,30 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     color: white;
 }
+.kuvaOtsikko{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    top: 50px;
+}
+.kuvaOtsikko h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    padding: 25px
+}
+.Portfolio{
+    position: absolute;
+    align: center;
+    font-size: 27px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    /* top: 70%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
