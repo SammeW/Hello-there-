@@ -3,14 +3,15 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     color: white;
 }
-.kuvaOtsikko{
-    background-image: url(kuva1.jpg);
-    background-repeat: no-repeat; 
-    position: relative;
+.kuva1{
+    position: absolute;
+    display: inline;
     text-align: center;
     top: 30px;
+
 }
-.kuvaOtsikko h1{
+
+/*.Otsikko h1{
     font-size: 60px;
     width: 50%;
     text-transform: uppercase;
@@ -22,8 +23,9 @@ body {
     transform: translate(-50%, -50%);
     border: 2px solid white;
     padding: 25px;
-}
-.kuvaOtsikko p{
+}*/
+
+/*.Otsikko p{
     position: relative;
     font-size: 27px;
     letter-spacing: 20px;
@@ -31,8 +33,38 @@ body {
     top: -60px;
     left: 50%;
     transform: translate(-50%, -50%);
+}*/
+
+.Otsikko h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    border: 2px solid white;
+    padding: 35px;
+    position: relative;
+    margin-top: 15%;
 }
-.linkit {
-    background-color: black;
+.Otsikko p{
+    font-size: 27px;
+    position: relative;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    top: -20px;
+}
+.linkit{
+    text-transform: uppercase;
+    font-weight: 550;
+    letter-spacing: 3px;
+    background-color: rgb(17, 34, 19);
     padding: 10px;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: limegreen;
 }

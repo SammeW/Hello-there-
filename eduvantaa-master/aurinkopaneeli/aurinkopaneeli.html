@@ -8,11 +8,27 @@
                 function haeTiedostosta(){
                     $.ajax({
                         type: "GET",
-                        url: "http://localhost:3000/arvot",
+                        url: "https://paneelipalvelin.azurewebsites.net/arvot",
 
                         cache: false,
                         success: function(data){
                             $("#tulokset").text(data);
+                            var arrayData="";
+                            $("#testi").html(arrayData[0]);
+                            var c = document.getElementById("myCanvas");
+                            var arvoArray;
+                            var arvoPituus;
+                            var piste=40;
+                            var diagrammi = getContext("2d");
+                            arvoArray = data.split(":");
+
+                            arvoPituus = arvoArray.lenght;
+
+                            diagrammi.beginPath();
+                            diagrammi.strokeStyle = "blue";
+
+                            diagrammi.moveTo(piste, 400-(200+(arvoArray[0]*5)))
+                            diagrammi.fillText
                         },
                         error: function(XMLHttpRequest, textStatus, errorThrown){
                             console.log("error");
