@@ -59,7 +59,7 @@ body {
     letter-spacing: 3px;
     background-color: rgb(17, 34, 19);
     padding: 10px;
-    position: absolute;
+    position: relative;
 }
 a{
     text-decoration: none;
