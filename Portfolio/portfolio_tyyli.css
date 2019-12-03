@@ -3,38 +3,13 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     color: white;
 }
-.kuva1{
-    position: absolute;
-    display: inline;
-    text-align: center;
-    top: 30px;
-
+.Otsikko{
+    position: relative;
+    background-image: url('kuva1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1px;
 }
-
-/*.Otsikko h1{
-    font-size: 60px;
-    width: 50%;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    position: relative;
-    margin-bottom: 175px;
-    top: 150px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 2px solid white;
-    padding: 25px;
-}*/
-
-/*.Otsikko p{
-    position: relative;
-    font-size: 27px;
-    letter-spacing: 20px;
-    text-transform: uppercase;
-    top: -60px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}*/
-
 .Otsikko h1{
     font-size: 55px;
     text-transform: uppercase;
@@ -44,14 +19,18 @@ body {
     padding: 35px;
     position: relative;
     margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .Otsikko p{
     font-size: 27px;
     position: relative;
-    letter-spacing: 20px;
+    letter-spacing: 30px;
     text-transform: uppercase;
     text-align: center;
     top: -20px;
+    margin-bottom: 10%;
 }
 .linkit{
     text-transform: uppercase;
@@ -60,6 +39,7 @@ body {
     background-color: rgb(17, 34, 19);
     padding: 10px;
     position: relative;
+    text-align: center;
 }
 a{
     text-decoration: none;
