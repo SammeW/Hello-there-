@@ -1,0 +1,30 @@
+body {
+    background-image: url('4-space.jpg');
+    background-size: cover;
+}
+button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.boksi {
+    margin-top: 1500px;
+    background-image: url('https://i.kym-cdn.com/entries/icons/original/000/029/079/hellothere.jpg');
+    height: 450px;
+    width: 800px;
+    position: absolute;
+}
+.boksi p {
+    color: white;
+    padding-top: 400px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    font-size: 1em;
+    text-transform: uppercase;
+    -webkit-text-stroke: 4px black;
+}

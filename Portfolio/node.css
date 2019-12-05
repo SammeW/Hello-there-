@@ -1,0 +1,12 @@
+body {
+    background-color: #151515;
+}
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
