@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="portfolio_tyyli.css">
-        <title>
-            Samuel JavaScript
-        </title>
-    </head>
-    <body>
-        
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="js.css">
+    <script src="jquery.js"></script>
+    <script src="js.js"></script>
+    <title>
+        Samuel JavaScript
+    </title>
+</head>
+<div class="peli">
+
+    <body onload="startGame()">
+        <div>
+            <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.2)">LENNÄ</button>
+        </div>
     </body>
+</div>
+
 </html>
